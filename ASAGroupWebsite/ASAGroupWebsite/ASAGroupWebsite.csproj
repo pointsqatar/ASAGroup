@@ -154,6 +154,7 @@
     <Content Include="img\portfolio\5.jpg" />
     <Content Include="img\portfolio\6.jpg" />
     <Content Include="img\sliders\calibration.jpg" />
+    <Content Include="img\sliders\hospitality.jpg" />
     <Content Include="img\sliders\Slide.jpg" />
     <Content Include="img\sliders\Slide2.jpg" />
     <Content Include="img\sliders\Slide3.jpg" />
@@ -224,6 +225,7 @@
     <Content Include="sass\partials\_colors.scss" />
     <Content Include="sass\partials\_layout.scss" />
     <Content Include="sass\partials\_typography.scss" />
+    <None Include="Properties\PublishProfiles\asagroupqatar.pubxml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />

@@ -3,13 +3,14 @@
 
     function initMap() {
         var locations = [
-        ['ASA Group of Companies', 25.269668104886872, 51.519235355819774, 2],
-        ['Points', 25.2518271, 51.4780785, 1]
+            ['Specialized Calibration & Measurement Instruementaion', 25.258637467512965, 51.41240708372235, 3],
+            ['ASA Group of Companies', 25.269668104886872, 51.519235355819774, 2],
+            ['Points', 25.2518271, 51.4780785, 1]
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 12,
-            center: new google.maps.LatLng(25.27966, 51.51923),
+            zoom: 11,
+            center: new google.maps.LatLng(25.27966, 51.45923),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
@@ -33,11 +34,9 @@
     }
 </script>
 
-
-
 <!-- Preloader
 ============================================= -->
-<div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+<div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-3x"></i></div>
 <!-- Header
 ============================================= -->
 <section class="main-header">
@@ -65,34 +64,34 @@
                 </div>
                 <div class="social-media hidden-sm hidden-xs">
                     <ul class="nav navbar-nav">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a><i class="fa fa-facebook"></i></a></li>
+                        <li><a><i class="fa fa-twitter"></i></a></li>
+                        <li><a><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
     <div id="owl-hero" class="owl-carousel owl-theme">
-        <div class="item" style="background-image: url(/img/sliders/Slide.jpg)">
+        <div class="item" style="background-image: url(/img/sliders/software.jpg)">
             <div class="caption">
                 <h6 style="color: rgb(239, 195, 111);">App Develpoment / Design / Branding</h6>
                 <h1 style="color: rgb(239, 195, 111);">Redefining <span>Technology</span></h1>
-                <a class="btn btn-transparent" href="http://www.pointsqatar.com" target="_blank">Learn More</a>
+                <a class="btn btn-transparent" href="http://www.pointsqatar.com" target="_blank">Visit Site</a>
             </div>
         </div>
-        <div class="item" style="background-image: url(/img/sliders/Slide2.jpg)">
+        <div class="item" style="background-image: url(/img/sliders/calibration.jpg)">
             <div class="caption">
                 <h6 style="color: rgb(245, 84, 34);">Measurement / Inspections / Training</h6>
                 <h1 style="color: rgb(245, 84, 34);">Leader in <span>Calibration</span></h1>
-                <a class="btn btn-transparent" href="http://www.specializedcalibration.com/" target="_blank">Learn More</a>
+                <a class="btn btn-transparent" href="http://www.specializedcalibration.com/" target="_blank">Visit Site</a>
             </div>
         </div>
-        <div class="item" style="background-image: url(/img/sliders/Slide3.jpg)">
+        <div class="item" style="background-image: url(/img/sliders/hospitality.jpg)">
             <div class="caption">
                 <h6 style="color: rgb(251, 255, 67);">Smart People / Quality Service / Building Trust </h6>
                 <h1 style="color: rgb(251, 255, 67);">Leisure with our <span>Hospitality</span></h1>
-                <a class="btn btn-transparent" href="@Url.Action("index", "home")">Learn More</a>
+                <a class="btn btn-transparent" href="@Url.Action("index", "home")">Visit Site</a>
             </div>
         </div>
     </div>
@@ -101,12 +100,13 @@
 <!-- Welcome
 ============================================= -->
 <section id="welcome">
-    <div class="container">
-        <h2>Welcome To <span>Rise</span></h2>
-        <hr class="sep">
-        <p>Make Yourself At Home Don't Be Shy</p>
-        <img class="img-responsive center-block wow fadeInUp" data-wow-delay=".3s" src="~/img/welcome/logo.png" alt="logo">
-    </div>
+    @*<div class="container">
+            <h2>Welcome To <span>ASA Group</span></h2>
+            <hr class="sep">
+            <p>We are a group of Companies 'Points', 'Specialized Calibration and Measurement Instrumentation' and 'Eshratqat Qatar Development'. The group was established in 2010 under the supervision of Mr. Arhama Saeed Al Buainain.</p>
+            <p>With the efforts of our experts and skilled staff we have established ourselves very well. We are currently working in three major sectors IT, Calibration and Hospitality and trying to expand it more by the time. We have a list of well known brands on board with us who we are working with in different sectors.</p>
+            <img class="img-responsive center-block wow fadeInUp" data-wow-delay=".3s" src="~/img/logo/asa-logo.gif" alt="logo">
+        </div>*@
 </section>
 
 <!-- Services
@@ -119,56 +119,56 @@
         <div class="services-box">
             <div class="row wow fadeInUp" data-wow-delay=".3s">
                 <div class="col-md-4">
-                    <div class="media-left"><span class="icon-lightbulb"></span></div>
+                    <div class="media-left"><span class="icon-desktop"></span></div>
                     <div class="media-body">
-                        <h3>Creative Design</h3>
+                        <h3>Software Development</h3>
                         <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="media-left"><span class="icon-mobile"></span></div>
                     <div class="media-body">
-                        <h3>Bootstrap</h3>
+                        <h3>Mobile Development</h3>
                         <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                     </div>
 
                 </div>
                 <div class="col-md-4">
-                    <div class="media-left"><span class="icon-compass"></span></div>
+                    <div class="media-left"><span class="icon-browser"></span></div>
                     <div class="media-body">
                         <h3>Sass &amp; Compass</h3>
                         <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                     </div>
 
                 </div>
-
-                <div class="row wow fadeInUp" data-wow-delay=".6s">
-                    <div class="col-md-4">
-                        <div class="media-left"><span class="icon-adjustments"></span></div>
-                        <div class="media-body">
-                            <h3>Easy To Customize</h3>
-                            <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
-                        </div>
-
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay=".6s">
+                <div class="col-md-4">
+                    <div class="media-left"><span class="icon-compass"></span></div>
+                    <div class="media-body">
+                        <h3>Calibration Services</h3>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="media-left"><span class="icon-tools"></span></div>
-                        <div class="media-body">
-                            <h3>Photoshop</h3>
-                            <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
-                        </div>
 
+                </div>
+                <div class="col-md-4">
+                    <div class="media-left"><span class="icon-tools"></span></div>
+                    <div class="media-body">
+                        <h3>Photoshop</h3>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="media-left"><span class="icon-wallet"></span></div>
-                        <div class="media-body">
-                            <h3>Money Saver</h3>
-                            <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
-                        </div>
 
+                </div>
+                <div class="col-md-4">
+                    <div class="media-left"><span class="icon-wallet"></span></div>
+                    <div class="media-body">
+                        <h3>Money Saver</h3>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -339,47 +339,11 @@
 ============================================= -->
 <section id="team">
     <div class="container">
-        <h2>Our Team</h2>
+        <h2>About Us</h2>
         <hr class="sep">
-        <p>Designers Behind This Work</p>
-        <div class="row wow fadeInUp" data-wow-delay=".3s">
-            <div class="col-md-4">
-                <div class="team">
-                    <img class="img-responsive center-block" src="~/img/team/MariaDoe.jpg" alt="1">
-                    <h4>Maria Doe</h4>
-                    <p>Designer</p>
-                    <div class="team-social-icons">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="team">
-                    <img class="img-responsive center-block" src="~/img/team/JasonDoe.jpg" alt="2">
-                    <h4>Jason Doe</h4>
-                    <p>Developer</p>
-                    <div class="team-social-icons">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="team">
-                    <img class="img-responsive center-block" src="~/img/team/MikeDoe.jpg" alt="3">
-                    <h4>Mike Doe</h4>
-                    <p>Photographer</p>
-                    <div class="team-social-icons">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p>We are a group of Companies 'Points', 'Specialized Calibration and Measurement Instrumentation' and 'Eshratqat Qatar Development'. The group was established in 2010 under the supervision of Mr. Arhama Saeed Al Buainain.</p>
+        <p>With the efforts of our experts and skilled staff we have established ourselves very well. We are currently working in three major sectors IT, Calibration and Hospitality and trying to expand it more by the time. We have a list of well known brands on board with us who we are working with in different sectors.</p>
+        <img class="img-responsive center-block wow fadeInUp" style="width:150px;height:150px;" data-wow-delay=".3s" src="~/img/logo/asa-logo.gif" alt="logo">
     </div>
 </section>
 
@@ -395,33 +359,30 @@
                 <div class="quote">
                     <i class="fa fa-quote-left left fa-2x"></i>
                     <h5>
-                        I’am amazed, I should say thank you so much for your awesome template. Design is so
-                        good and neat, every detail has been taken care these team are realy amazing and talented! I will
-                        work only with <span>Rise</span>.<i class="fa fa-quote-right right fa-2x"></i>
+                        It has been a plesure working with skillfull staff of Points. I hope to work with company on other projects as well in future.
+                        <span>-Mr. Rustum Jaroun / Al-Salem Group</span>
                     </h5>
-
+                    <i class="fa fa-quote-right right fa-2x"></i>
                 </div>
             </div>
             <div class="item">
                 <div class="quote">
                     <i class="fa fa-quote-left left fa-2x"></i>
                     <h5>
-                        I’am amazed, I should say thank you so much for your awesome template. Design is so
-                        good and neat, every detail has been taken care these team are realy amazing and talented! I will
-                        work only with <span>Rise</span>.<i class="fa fa-quote-right right fa-2x"></i>
+                        I loved the way that Points delivers. We have been very impressed by their's ability to understand our thoughts and deliver their best. Wish them all success ahead.
+                        <span>-Mr. Husam Hamdan / Eshraqat Qatar Development</span>
                     </h5>
-
+                    <i class="fa fa-quote-right right fa-2x"></i>
                 </div>
             </div>
             <div class="item">
                 <div class="quote">
                     <i class="fa fa-quote-left left fa-2x"></i>
                     <h5>
-                        I’am amazed, I should say thank you so much for your awesome template. Design is so
-                        good and neat, every detail has been taken care these team are realy amazing and talented! I will
-                        work only with <span>Rise</span>.<i class="fa fa-quote-right right fa-2x"></i>
+                        The project completed by Points was brilliant. We would like to work with Points on future
+                        <span>-Management / Al-Hekma Internaltional School</span>
                     </h5>
-
+                    <i class="fa fa-quote-right right fa-2x"></i>
                 </div>
             </div>
         </div>
@@ -434,7 +395,7 @@
     <div class="container">
         <h2>Contact Us</h2>
         <hr class="sep">
-        <p>Get In Touch</p>
+        <p>Please contact us with any questions you may have about our services, software solutions etc. You will receive a reply within 24 business hours.</p>
         <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay=".3s">
             <form id="main-contact-form" name="contact-form" method="post">
                 <div class="form-group">
