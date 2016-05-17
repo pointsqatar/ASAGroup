@@ -225,6 +225,7 @@
     <Content Include="sass\partials\_colors.scss" />
     <Content Include="sass\partials\_layout.scss" />
     <Content Include="sass\partials\_typography.scss" />
+    <None Include="Properties\PublishProfiles\asagroup.pubxml" />
     <None Include="Properties\PublishProfiles\asagroupqatar.pubxml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
