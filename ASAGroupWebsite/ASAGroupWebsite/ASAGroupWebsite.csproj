@@ -154,11 +154,14 @@
     <Content Include="img\portfolio\5.jpg" />
     <Content Include="img\portfolio\6.jpg" />
     <Content Include="img\sliders\calibration.jpg" />
+    <Content Include="img\sliders\calibration_compressed.jpg" />
     <Content Include="img\sliders\hospitality.jpg" />
+    <Content Include="img\sliders\hospitality_compressed.jpg" />
     <Content Include="img\sliders\Slide.jpg" />
     <Content Include="img\sliders\Slide2.jpg" />
     <Content Include="img\sliders\Slide3.jpg" />
     <Content Include="img\sliders\software.jpg" />
+    <Content Include="img\sliders\software_compressed.jpg" />
     <Content Include="img\team\JasonDoe.jpg" />
     <Content Include="img\team\MariaDoe.jpg" />
     <Content Include="img\team\MikeDoe.jpg" />
@@ -195,6 +198,7 @@
     <Content Include="plugins\owl-carousel\owl.transitions.css" />
     <Content Include="plugins\WOW\dist\wow.js" />
     <Content Include="plugins\WOW\dist\wow.min.js" />
+    <Content Include="robots.txt" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\bootstrap.js" />
@@ -226,11 +230,11 @@
     <Content Include="sass\partials\_layout.scss" />
     <Content Include="sass\partials\_typography.scss" />
     <None Include="Properties\PublishProfiles\asagroup.pubxml" />
-    <None Include="Properties\PublishProfiles\asagroupqatar.pubxml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

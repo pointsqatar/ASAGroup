@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://www.asagroupqatar.com</loc>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.asagroupqatar.com/home/index" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.asagroupqatar.com/home/index" />
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://asagroupqatar.com/home/index" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://asagroupqatar.com/home/index" />
+    <lastmod>2016-05-14T11:27:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.80</priority>
+  </url>
+</urlset>

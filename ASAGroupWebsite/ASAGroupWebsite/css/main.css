@@ -200,7 +200,7 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-    background: rgba(141, 169, 164, 0.85);
+    background: rgba(77, 255, 206, 0.83);
     margin-bottom: 0;
     border: none;
 }
@@ -216,7 +216,7 @@ Navigation Style
 
     .navbar-default .nav > li > a {
         font-size: 14px;
-        color: #fff;
+        color: black;
         font-weight: 700;
         text-transform: uppercase;
         padding: 35px 15px;
@@ -249,7 +249,7 @@ Navigation Style
     }
 
 .top-nav-collapse {
-    background: rgba(141, 169, 164, 0.85);
+    background: rgba(77, 255, 206, 0.83);
 }
 
     .top-nav-collapse .navbar-brand {
@@ -788,7 +788,7 @@ Media Queries Style
 @media (max-width: 992px) {
     /*-- Navigation --*/
     .navbar-default {
-        background: rgba(141, 169, 164, 0.85);
+        background: rgba(77, 255, 206, 0.83);
     }
 
         .navbar-default .nav > li > a {
