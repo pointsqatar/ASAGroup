@@ -200,7 +200,7 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-    background: rgba(77, 255, 206, 0.83);
+    background: rgb(193, 193, 193);
     margin-bottom: 0;
     border: none;
 }
@@ -249,7 +249,7 @@ Navigation Style
     }
 
 .top-nav-collapse {
-    background: rgba(77, 255, 206, 0.83);
+    background: rgb(193, 193, 193);
 }
 
     .top-nav-collapse .navbar-brand {

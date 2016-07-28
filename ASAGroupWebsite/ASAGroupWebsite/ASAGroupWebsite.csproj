@@ -155,8 +155,10 @@
     <Content Include="img\portfolio\6.jpg" />
     <Content Include="img\sliders\calibration.jpg" />
     <Content Include="img\sliders\calibration_compressed.jpg" />
+    <Content Include="img\sliders\foodpic.jpg" />
     <Content Include="img\sliders\hospitality.jpg" />
     <Content Include="img\sliders\hospitality_compressed.jpg" />
+    <Content Include="img\sliders\shoes.jpg" />
     <Content Include="img\sliders\Slide.jpg" />
     <Content Include="img\sliders\Slide2.jpg" />
     <Content Include="img\sliders\Slide3.jpg" />
@@ -229,6 +231,7 @@
     <Content Include="sass\partials\_colors.scss" />
     <Content Include="sass\partials\_layout.scss" />
     <Content Include="sass\partials\_typography.scss" />
+    <None Include="Properties\PublishProfiles\asagroup %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\asagroup.pubxml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
